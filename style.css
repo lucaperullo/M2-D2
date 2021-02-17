@@ -1,4 +1,15 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+footer {
+  color: white;
+}
 section {
+  margin: 100px;
+  background-color: rgba(189, 188, 180, 0.473);
+  backdrop-filter: blur(4px);
+  border-radius: 40px;
   margin-bottom: 10vh;
   display: flex;
   justify-content: center;
@@ -10,8 +21,21 @@ section {
   }
 }
 .image-shadow {
-  box-shadow: 10px 11px 13px 12px;
+  box-shadow: 10px 11px 13px 12px rgba(0, 0, 0, 0.986);
 }
 .carousel {
   margin-bottom: 10vh;
+}
+.navbar {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+body {
+  background-image: url("https://images.freecreatives.com/wp-content/uploads/2016/01/Free-Wood-Floor-Seamless-Background-with-3D-Mapping.jpeg");
+}
+.atag {
+  color: white;
+}
+.atag:hover {
+  color: red;
 }
